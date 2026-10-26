@@ -1,0 +1,15 @@
+[package]
+name = "veo-clip-planner"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.73"
+license = "MIT"
+description = "Plan a target video length as Veo 3.1 clips or Gemini API extensions: clip count, request count, final length and frames, using Google's documented 4/6/8 s clip and 7 s x 20 extension limits."
+repository = "https://github.com/theluckystrike/veo-clip-planner"
+homepage = "https://makeroll.com/"
+documentation = "https://makeroll.com/veo-3-1-video-length-limit/"
+readme = "README.md"
+keywords = ["veo", "video", "gemini", "planner", "generative-video"]
+categories = ["multimedia::video", "command-line-utilities"]
+
+[dependencies]
